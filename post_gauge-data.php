@@ -25,7 +25,7 @@
 #       - initial release
 #
 // define our destination file, path is relative to our location
-$json_file = /photokinetics.org/Weather/gauges/gauge-data.txt
+$json_file = "./gauge-data.txt";
 // we are only interested in HTTP POST
 if($_SERVER['REQUEST_METHOD'] == 'POST') {  
     // get the data
